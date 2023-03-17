@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 32px 10px;
+}
+.main{
+    margin: 30px 95px;
+    padding: 10px 10px;
+    font-size: 30px;
+    font-weight: 300;
+    width: 400px;
+}
+li{
+    margin: 15px 15px;
+    background-color: whitesmoke;
+}
+.li1{
+    color:coral;
+}

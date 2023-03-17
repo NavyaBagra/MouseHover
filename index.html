@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MouseHover Effect With JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="MainBody">
+        <div class="container">
+            <h1>MouseHover Effect With JavaScript</h1>
+        </div>
+        <div class="main">
+            <ul>
+                <li class="li1" onmouseover="changeTextColor(this)" onmouseout="changeTextColor(this)">Change Text Color</li>
+                <li onmouseover="scaleUp(this,'40px')" onmouseout="scaleUp(this,'30px')" >Change Font</li>
+                <li onmouseover="changeText(this,'Welcome Text Has Change!')" onmouseout="changeText(this,'Hello!')" >Change Text</li>
+                <li onmouseover="changeBgColor(this,'skyblue')" onmouseout="changeBgColor(this,'whitesmoke')" >Change Background Color</li>
+                <li onmouseover="showRow();" onmouseout="showRow()" >Show New Row</li>
+                <li id="show" style="visibility:hidden; background: lightgreen;"> This is a New Row 
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
